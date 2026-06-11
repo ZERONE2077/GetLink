@@ -6,7 +6,7 @@
 
 - 自动轻量识别网页中的 magnet 链接
 - 右键菜单增强：选中文字、右键链接、右键附近区域自动查找链接
-- 添加 magnet/http 链接到 115 云下载
+- 添加 magnet/http 链接到离线下载服务（当前支持 115，后续可扩展迅雷、夸克等）
 - 任务状态记忆：已添加、已存在、失败等状态会保留
 - 深色模式 / 跟随系统
 - 上下文名称识别与资源标签识别
@@ -18,7 +18,7 @@
 安装地址：
 
 ```txt
-https://raw.githubusercontent.com/ZERONE2077/GetLink/main/115.user.js
+https://raw.githubusercontent.com/ZERONE2077/GetLink/main/GetLink.user.js
 ```
 
 在 Tampermonkey 中通过 URL 安装，或打开上述 raw 地址后按提示安装。
@@ -27,7 +27,7 @@ https://raw.githubusercontent.com/ZERONE2077/GetLink/main/115.user.js
 
 - 脚本默认排除 115、抖音、TikTok。
 - 脚本只在顶层页面运行，避免 iframe 重复注入。
-- 添加到 115 需要当前浏览器已登录 115。
+- 添加到对应服务需要当前浏览器已登录该服务（当前为 115）。
 
 ## License
 
