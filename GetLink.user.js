@@ -2,7 +2,8 @@
 // @name         GetLink - 网页链接识别助手
 // @namespace    https://github.com/ZERONE2077/GetLink
 // @version      2.7
-// @description  识别网页上的 magnet/ht.tp 链接并进行后续操作，支持网盘/离线下载扩展、状态记忆、右键增强、深色模式
+// @description  识别网页上的 magnet/http 链接并进行后续操作，支持网盘/离线下载扩展、状态记忆、右键增强、深色模式
+// @license      MIT
 // @match        http://*/*
 // @match        https://*/*
 // @exclude      https://115.com/*
